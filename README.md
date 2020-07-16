@@ -12,7 +12,12 @@ make
 ```
 ## End-to-end Workflow
 
-Run the following two commands on the same server with at least 2 GPUs at the same time:
+```bash
+export LD_LIBRARY_PATH=/path/to/libnccl.so.2:$LD_LIBRARY_PATH
+```
+
+Then, Run the following two commands on the same server with at least 2 GPUs at the same time:
+
 ```bash
 python test_nccl.py --rank 0
 python test_nccl.py --rank 1
