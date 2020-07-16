@@ -1,6 +1,5 @@
-sys.path.append("..")
-
 import sys
+sys.path.append("..")
 import torch
 import threading
 import time
