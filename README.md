@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository provides a Python API for NCCL.
+This repository provides a Python API for NCCL to send and receive PyTorch tensors.
 
 ## Compile
 #### compile comm
